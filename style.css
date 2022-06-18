@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;}
+   *:before,
+   *:after {
+    box-sizing: inherit;}
+   
+   
+   body {
+    border: greenyellow 3px solid;
+    background-color: aliceblue;}
+   
+
+   
+   a:link{color: #132743; text-decoration: none;}
+   a:visited{color: #ffb5b5; text-decoration: none;}
+   a:hover{color: #f76b8a; text-decoration: none;}
+
+   .navbarelements{
+    margin: 0;
+    padding: 0;
+    font-size: 29px;
+    margin-right: 22px;
+    border: red 2px solid;}
+
+   .frontpagephoto{
+    width: 700px;
+    height: 400px;
+    margin-top: 10px;}
+   
+   
+   .aboutMe{
+    border: blue 3px solid;
+    font-size: 1.5rem;
+    text-align: center;}
+   
+   .project{ border: 3px red solid;}
+   
+   .contact-form{border: blue 3px solid;
+   display: flex;
+   flex-flow: column nowrap;}
+   
+   ul{list-style-type: none;}
+   
+   .display-form {margin-left: 28px;}
+   
+   footer{text-align: center;
+   color: #f76b8a;
+   font-size: 18px;}
+   
+   
