@@ -6,7 +6,7 @@ html {
    
    
    body {
-    border: greenyellow 3px solid;
+    border: orangered 3px solid;
     background-color: aliceblue;}
    
 
@@ -33,9 +33,9 @@ html {
     font-size: 1.5rem;
     text-align: center;}
    
-   .project{ border: 3px red solid;}
+   .project{ border: 3px yellow solid;}
    
-   .contact-form{border: blue 3px solid;
+   #Contact{border: blue 3px solid;
    display: flex;
    flex-flow: column nowrap;}
    
