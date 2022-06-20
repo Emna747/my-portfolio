@@ -5,41 +5,35 @@ html {
     box-sizing: inherit;}
    
    
-   body {
-    
-    background-color: aliceblue;}
-   
-
-   
    a:link{color: #132743; text-decoration: none;}
    a:visited{color: #ffb5b5; text-decoration: none;}
    a:hover{color: #f76b8a; text-decoration: none;}
+   ul{list-style-type: none;} 
 
-   .navbarelements{
+
+body{position: relative;}
+
+
+   nav{border: red 3px solid;
+    background-color: #81df42c4;
+position: sticky;
+top: 0px;
+z-index: 20;}
+
+.navbarelements{
     margin: 0;
     padding: 0;
-    font-size: 29px;
+    font-size: 2rem;
     margin-right: 22px;}
+   
+    #aboutMe{border: yellow 3px solid;
+    font-size: 1.6rem;}
+    #myWork {border: blue 3px solid;
+    }
+    #Contact {border: green 3px solid;}
+ 
+   
 
-   .frontpagephoto{
-    width: 700px;
-    height: 400px;
-    margin-top: 10px;}
-   
-   
-   .aboutMe{
-    font-size: 1.5rem;
-    text-align: center;}
-   
-  
-   
-   #Contact{
-   display: flex;
-   flex-flow: column nowrap;}
-   
-   ul{list-style-type: none;}
-   
-   .display-form {margin-left: 28px;}
    
    footer{text-align: center;
    color: #f76b8a;
