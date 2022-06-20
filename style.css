@@ -6,7 +6,7 @@ html {
    
    
    body {
-    border: orangered 3px solid;
+    
     background-color: aliceblue;}
    
 
@@ -19,8 +19,7 @@ html {
     margin: 0;
     padding: 0;
     font-size: 29px;
-    margin-right: 22px;
-    border: red 2px solid;}
+    margin-right: 22px;}
 
    .frontpagephoto{
     width: 700px;
@@ -29,13 +28,12 @@ html {
    
    
    .aboutMe{
-    border: blue 3px solid;
     font-size: 1.5rem;
     text-align: center;}
    
-   .project{ border: 3px yellow solid;}
+  
    
-   #Contact{border: blue 3px solid;
+   #Contact{
    display: flex;
    flex-flow: column nowrap;}
    
