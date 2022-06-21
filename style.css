@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Noto+Serif&display=swap');
 html {
     box-sizing: border-box;}
    *:before,
@@ -5,32 +7,62 @@ html {
     box-sizing: inherit;}
    
    
-   a:link{color: #132743; text-decoration: none;}
+   a:link{color: #ffc93c;  text-decoration: none;}
    a:visited{color: #ffb5b5; text-decoration: none;}
-   a:hover{color: #f76b8a; text-decoration: none;}
+   a:hover{color: #f574ee; text-decoration: none;}
    ul{list-style-type: none;} 
 
 
-body{position: relative;}
+body{position: relative;
+    background-image: url("backgroundimage2.jpg");
+    
+}
 
-
-   nav{border: red 3px solid;
-    background-color: #81df42c4;
+nav{
+padding-right: 0px;
 position: sticky;
 top: 0px;
-z-index: 20;}
+z-index: 28;
+border: 2px red solid;}
 
 .navbarelements{
-    margin: 0;
-    padding: 0;
-    font-size: 2rem;
-    margin-right: 22px;}
    
-    #aboutMe{border: yellow 3px solid;
-    font-size: 1.6rem;}
-    #myWork {border: blue 3px solid;
+font-family: "Dosis",sans-serif;
+font-weight: bold;
+font-size: 2rem;
+margin-right: 1.2rem;
+margin-top: 0.5rem;
+border: 2px yellow solid;
+}
+
+  
+    #aboutme{
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 2px yellowgreen solid;}
+
+    .introductiontext {font-size: 1.5rem;
+font-weight: bold;
+font-family: "Dosis",sans-serif;
+color: #ffc93c;
+text-align:left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-5%, -3%);
+  border: 2px pink solid;
+  }
+
+
+    #myWork {
+        color: rgb(28, 28, 27);
+        border: 2px red solid;
     }
-    #Contact {border: green 3px solid;}
+    .column {border: 2px yellow solid;}
+    #Contact {border: 2px rgb(21, 238, 32) solid;}
  
    
 
