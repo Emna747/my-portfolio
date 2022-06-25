@@ -1,87 +1,100 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Noto+Serif&display=swap');
 html {
-    box-sizing: border-box;}
-   *:before,
-   *:after {
-    box-sizing: inherit;}
+  box-sizing: border-box;}
+ *:before,
+ *:after {
+  box-sizing: inherit;}
    
    
-   a:link{color: #ffc93c;  text-decoration: none;}
-   a:visited{color: #ffb5b5; text-decoration: none;}
-   a:hover{color: #f574ee; text-decoration: none;}
+   a:link{color: white; text-decoration: none;}
+   a:hover{color: #ff007b; text-decoration: none;}
    ul{list-style-type: none;} 
+/* grid-template-columns: repeat (auto-fit, minmax(2rem, 1fr)); 
+grid-row: 1/3*/
 
-
-body{position: relative;
-    background-image: url("backgroundimage2.jpg");
-    
+body{position: relative;  
+  background-color: black;
 }
 
 nav{
 position: sticky;
 top: 0px;
-z-index: 28;}
+z-index: 28;
+display: flex;
+justify-content: center;
+align-content: center;
+background-color: black;
+}
 
 .navbarelements{
-
 font-family: "Dosis",sans-serif;
 font-weight: bold;
 font-size: 2rem;
-margin-left: 1rem;
-text-align:left;}
+margin-left: 3rem;}
 
     #aboutme{
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;}
+    height: 550px;
+    position: relative;
+    }
 
-    .introductiontext {font-size: 1.5rem;
-font-weight: bold;
+    .introductiontext {
+font-size: 1.7rem;
 font-family: "Dosis",sans-serif;
-color: #ffc93c;
 text-align:left;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+position: absolute;
+color: white;
+top: 60%;
+left: 55%;
   transform: translate(-8%, -18%);}
 
+b{color: #ff007b;}
+h3 {color: #ff007b;
+font-weight: bold;
+font-family: "Dosis", 'Gill Sans', 'Gill Sans MT', Calibri;}
 
     #myWork {
-        color: rgb(28, 28, 27);
-      display: flex;
-      
-    }
-    .column {
-        
+   display: grid;
+   gap: 0.5rem;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+      .column {
+      justify-self: center;
         max-width: 280px;
         min-height: 320px;
-        margin-left: 1rem;
-        border: 5px #ffc93c solid;}
+       text-align: center;
+       margin-top: 5rem;
+        border: 5px white double;
+        border-radius: 10%;}
 
-        .btn {
-            display: inline-block;
-            background-color: #c29df5;
-            border-radius: 10px;
-            border: 4px double #cccccc;
-            color: #eeeeee;
-            text-align: center;
-            font-size: 1rem;
-            padding: 10px;
-            width: 90px;
-            transition: all 0.5s;
-            cursor: pointer;
-            margin: 2.5px;
-          }
-          .btn span {
-            cursor: pointer;
-            display: inline-block;
-            position: relative;
-            transition: 0.5s;
-          }
-          .btn span:after {
+        p{color: white;
+          font-weight: bold;
+          font-size: 1.2rem;
+          font-family: "Dosis",sans-serif;
+          margin-bottom: 1.7rem;
+       }
+       button{
+      background-color: white;
+      color: #ff007b;
+      transition-duration: 0.4s;
+      font-family: "Dosis",sans-serif;
+      border: none;
+      border-radius: 8%;
+      font-weight: bold;
+      font-size: 1rem;
+      text-align: center;
+      margin-left: 1rem;
+      margin-bottom: 2rem;
+     
+
+       }
+       button:hover {
+        background-color: #f7c2f9;
+        color: black;
+      }
+
+          /*.btn span:after {
             content: '\00bb';
             position: absolute;
             opacity: 0;
@@ -110,14 +123,17 @@ text-align:left;
           button:hover span:after {
             opacity: 1;
             right: 0;
-          }
-    #Contact {border: 2px rgb(21, 238, 32) solid;}
+          }*/
+
+    #Contact {border: 2px rgb(21, 238, 32) solid;
+    grid-column: span 2;}
+
  
    
 
    
    footer{text-align: center;
-   color: #f76b8a;
+   color:  #ff007b;
    font-size: 18px;}
    
    
