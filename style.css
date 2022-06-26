@@ -126,13 +126,11 @@ font-family: "Dosis", 'Gill Sans', 'Gill Sans MT', Calibri;}
     margin-top: 2rem;
     margin-bottom: 2rem; 
     font-size: 1.3rem;
-    padding: 0.3rem;
-  
-  }
-  .btn-submit:hover {background-color: #f7c2f9;}
+    padding: 0.3rem;}
 
+  .btn-submit:hover {background-color: #f7c2f9;}
    
-   footer{
+footer{
 text-align: center;
 color: #f7c2f9;
 font-size: 1.5rem;
